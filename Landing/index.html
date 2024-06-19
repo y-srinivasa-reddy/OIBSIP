@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Movie Ticket Booking</h1>
+            <p>Book your tickets online with ease</p>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="feature-item">
+                <img src="public/images/img11.jpg" height="600px" alt="Feature 1">
+                <h3>Easy Booking Process</h3>
+                <p>Book your movie tickets quickly and securely through our user-friendly interface.</p>
+            </div>
+            <div class="feature-item">
+                <img class="img1" src="public/images/img12.jpg" alt="Feature 2">
+                <h3>Wide Selection of Movies</h3>
+                <p>Choose from a vast collection of movies across genres, languages, and formats.</p>
+            </div>
+            <div class="feature-item">
+                <img src="public/images/img13.jpg" alt="Feature 3">
+                <h3>Secure Payment Options</h3>
+                <p>We ensure your transactions are safe and secure with multiple payment methods available.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Book Your Tickets?</h2>
+            <p>Get started now and enjoy your movie experience!</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-form">
+        <div class="container">
+            <h2>Book Your Tickets</h2>
+            <form>
+                <label for="movie">Select Movie:</label>
+                <select id="movie" name="movie" required>
+                    <option value="">Select a movie</option>
+                    <option value="movie1">Movie 1</option>
+                    <option value="movie2">Movie 2</option>
+                    <option value="movie3">Movie 3</option>
+                </select>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="tickets">Number of Tickets:</label>
+                <input type="number" id="tickets" name="tickets" min="1" required>
+
+                <button type="submit" class="btn">Proceed to Payment</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Movie Ticket Booking. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
