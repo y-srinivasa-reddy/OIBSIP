@@ -45,22 +45,22 @@ header p {
     margin-bottom: 50px;
 }
 
-.feature-item {
+.feature_item {
     margin-bottom: 50px;
 }
 
-.feature-item img {
+.feature_item img {
     width: 800px;
     height: 300px;
     margin-bottom: 20px;
 }
 
-.feature-item h3 {
+.feature_item h3 {
     font-size: 2em;
     margin-bottom: 10px;
 }
 
-.feature-item p {
+.feature_item p {
     font-size: 1.1em;
     color: #666;
     line-height: 1.6;
