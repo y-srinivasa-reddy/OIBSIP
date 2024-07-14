@@ -27,12 +27,12 @@ header {
 }
 
 .feature-item img{
-    width: 1000px;
     height: 300px;
 }
         
 .img1{
     height: 500px;
+    width: 800px;
 }
 
 
